@@ -21,7 +21,7 @@ body {
     align-items: center;
     text-align: center;
     font-family: Arial, sans-serif;
-    color: white;
+    color: black;
 
     /* humo rojo */
     background: radial-gradient(circle, rgba(255,0,0,0,4) 20%, rgba(0,0,0,1) 80%);
