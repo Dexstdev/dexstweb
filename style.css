@@ -9,4 +9,14 @@ body {
             background-attachment: scroll;
         }        
     }
+    body ::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 12;
+        height: 100%;
+        background-color: lightslategray;
+        z-index: 1000;
+    }
 }
